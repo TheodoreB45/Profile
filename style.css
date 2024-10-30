@@ -8,7 +8,7 @@ body {
   font-size: 10;
   line-height: 2;
   font-family: Space Grotesk;
-  background-color: #F6F5F2;
+  background-color: #f2fafd;
   color: #1E3E62;
   padding: 0;
 }
@@ -25,13 +25,25 @@ a {
   text-decoration: none;
 }
 
+.icons {
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-buttons {
+  width: 50px;
+  height: 50px;
+}
+
 a:hover {
   text-decoration: none;
   color: #FF6500;
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(250, 242, 226);
   padding: 10px;
   width: 700px;
   margin: 25px auto;
